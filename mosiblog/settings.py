@@ -153,6 +153,11 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
 
 
+# 服务端收集静态文件地址
+STATIC_ROOT =os.path.join(BASE_DIR,'static_dist')
+
+
+
 # 保存文件到服务器的配置
 UEDITOR_UPLOAD_TO_SERVER = True
 UEDITOR_UPLOAD_PATH = MEDIA_ROOT

@@ -83,7 +83,7 @@
           <entry key="html" value="4746" />
           <entry key="js" value="6052" />
           <entry key="json" value="1" />
-          <entry key="py" value="13250" />
+          <entry key="py" value="13254" />
           <entry key="py@mosiblog" value="275" />
           <entry key="scss" value="652" />
           <entry key="vmoptions" value="19" />
@@ -96,7 +96,7 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="6052" />
           <entry key="PLAIN_TEXT" value="221" />
-          <entry key="Python" value="13250" />
+          <entry key="Python" value="13254" />
           <entry key="SCSS" value="652" />
         </counts>
       </usages-collector>
@@ -173,8 +173,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mosiblog/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="458">
+              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
             </state>
           </provider>
         </entry>
@@ -301,9 +301,9 @@
       <path value="$PROJECT_DIR$/front/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1007" />
-    <option name="y" value="42" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="433" />
+    <option name="y" value="77" />
     <option name="width" value="1228" />
     <option name="height" value="1014" />
   </component>
@@ -762,8 +762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mosiblog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="458">
+          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
         </state>
       </provider>
     </entry>
