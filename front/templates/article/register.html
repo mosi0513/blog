@@ -1,0 +1,84 @@
+
+
+
+
+
+
+{% extends 'base/front_base.html' %}
+
+{% block title %}
+磨斯博客注册页
+{% endblock %}
+
+
+{% block head %}
+ <script src="{% static 'js/auth.min.js' %}"></script>
+{% endblock %}
+
+
+{% block container %}
+  <div class="container container-small">
+    <h1>注册
+      <small>没有账号？<a href="#">注册博客</a></small>
+    </h1>
+    <form>
+      <div class="form-group">
+        <label>手机号码</label>
+        <input type="text" class="form-control" name="telephone">
+      </div>
+
+        <div class="form-group">
+        <label>用户名</label>
+        <input type="text" class="form-control" name="username">
+        </div>
+
+
+        <div class="from-group">
+
+        <div class="short-input-group">
+             <label>图形验证码</label>
+            <input type="text" class="form-control" name="images_captcha">
+        </div>
+        <div class="input-group-addon">
+            <img src="{% url 'mosiauth:img_captcha' %}" alt="" class="img-captcha" style="cursor: pointer">
+        </div>
+
+        </div>
+
+
+
+      <div class="form-group">
+        <label class="password">密码</label>
+        <input type="password" class="form-control" name="password1">
+      </div>
+        <div class="form-group">
+        <label>确认密码</label>
+        <input type="password" class="form-control" name="password2">
+      </div>
+
+
+
+      <div class="form-group">
+        <label>验证码</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="sms_captcha">
+          <div class="input-group-btn">
+            <div class="btn btn-default sms-captcha-btn">获取验证码</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <button class="btn btn-primary btn-block signup-btn" type="submit">注册</button>
+      </div>
+      <div class="form-group">
+        注册磨斯博客即代表您同意<a href="#">磨斯博客服务条款</a>
+      </div>
+    </form>
+
+
+
+
+  </div>
+
+{% endblock %}

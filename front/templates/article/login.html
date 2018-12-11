@@ -1,0 +1,44 @@
+
+
+
+{% extends 'base/front_base.html' %}
+
+
+{% block title %}
+磨斯博客登陆页
+{% endblock %}
+{% block head %}
+ <script src="{% static 'js/auth.min.js' %}"></script>
+{% endblock %}
+
+{% block container %}
+  <div class="container container-small">
+
+    <h1>登录
+      <small>没有账号？<a href="#">注册</a></small>
+    </h1>
+      <div class="form-group">
+        <label>手机号码</label>
+        <input type="text" class="form-control" name="telephone">
+      </div>
+      <div class="form-group">
+        <label>密码</label>
+        <input type="password" class="form-control" name="password">
+      </div>
+
+    <div class="form-group">
+        <label class="remember-label">
+            <input type="checkbox" name="remember" value="1">
+            记住我
+        </label>
+    </div>
+
+      <div class="form-group">
+        <button class="btn btn-primary btn-block submit-btn" type="submit">登录</button>
+      </div>
+      <div class="form-group">
+        <a href="#">忘记密码？</a>
+
+      </div>
+  </div>
+{% endblock %}
