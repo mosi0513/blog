@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="559bd79c-86e5-4723-b8ce-de194252a6dd" name="Default Changelist" comment="" />
+    <list default="true" id="559bd79c-86e5-4723-b8ce-de194252a6dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/mosiblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mosiblog/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
           <entry key="jpg" value="1" />
           <entry key="js" value="78" />
           <entry key="json" value="1" />
-          <entry key="py" value="216" />
+          <entry key="py" value="217" />
           <entry key="scss" value="20" />
           <entry key="vmoptions" value="1" />
         </counts>
@@ -71,7 +73,7 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="78" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="216" />
+          <entry key="Python" value="217" />
           <entry key="SCSS" value="20" />
         </counts>
       </usages-collector>
@@ -81,7 +83,7 @@
           <entry key="html" value="4746" />
           <entry key="js" value="6052" />
           <entry key="json" value="1" />
-          <entry key="py" value="13246" />
+          <entry key="py" value="13250" />
           <entry key="py@mosiblog" value="275" />
           <entry key="scss" value="652" />
           <entry key="vmoptions" value="19" />
@@ -94,7 +96,7 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="6052" />
           <entry key="PLAIN_TEXT" value="221" />
-          <entry key="Python" value="13246" />
+          <entry key="Python" value="13250" />
           <entry key="SCSS" value="652" />
         </counts>
       </usages-collector>
@@ -110,15 +112,6 @@
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -168,11 +161,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mosiblog/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -219,6 +221,9 @@
       <find>news</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/apps/cms/views.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/front/templates/article/register.html" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -250,7 +255,6 @@
         <option value="$PROJECT_DIR$/front/templates/article/register.html" />
         <option value="$PROJECT_DIR$/apps/mosiauth/serializers.py" />
         <option value="$PROJECT_DIR$/front/src/js/auth.js" />
-        <option value="$PROJECT_DIR$/mosiblog/settings.py" />
         <option value="$PROJECT_DIR$/front/src/js/index.js" />
         <option value="$PROJECT_DIR$/apps/article/forms.py" />
         <option value="$PROJECT_DIR$/apps/article/serializers.py" />
@@ -277,6 +281,7 @@
         <option value="$PROJECT_DIR$/apps/cms/views.py" />
         <option value="$PROJECT_DIR$/front/templates/base/front_base.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/mosiblog/settings.py" />
       </list>
     </option>
   </component>
@@ -297,11 +302,12 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1107" />
-    <option name="y" value="64" />
+    <option name="x" value="1007" />
+    <option name="y" value="42" />
     <option name="width" value="1228" />
     <option name="height" value="1014" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -319,6 +325,11 @@
               <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
+              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
@@ -408,7 +419,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="720" y="33" width="1228" height="1014" extended-state="0" />
+    <frame x="1007" y="42" width="1228" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30051368" />
@@ -416,7 +427,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295583" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978602" visible="true" weight="0.27045456" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978602" visible="true" weight="0.27076223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,13 +454,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mosiblog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
@@ -753,6 +757,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mosiblog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
