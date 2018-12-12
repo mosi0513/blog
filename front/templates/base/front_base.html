@@ -41,8 +41,10 @@
         <li class="dropdown">
                 <a href="#" class="dropdown-toggle authenticated-box" data-toggle="dropdown"> {{ user.username }}<b class="caret"></b></a>
                 <ul class="dropdown-menu">
+                {% if user.is_staff %}
                     <li class="divider"></li>
                     <li><a href="{% url 'cms:cms_index' %}">后台管理</a></li>
+                     {% endif %}
                     <li class="divider"></li>
                     <li><a href="{% url 'mosiauth:logout' %}">退出登陆</a></li>
                 </ul>

@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.contrib.admin.views.decorators import staff_member_required
 from django.views.generic import View
-from django.views.decorators.http import require_POST
+from django.views.decorators.http import require_POST,require_GET
 from utils import restful
 from apps.article.models import ArticleCategory,Article
 from .forms import EditArticleCategoryForm,WriteArticleForm,EditArticleForm
@@ -13,6 +13,15 @@ from datetime import datetime
 from django.utils.timezone import make_aware
 from urllib import parse
 from django.db.models import Count
+from apps.mosiauth.decorators import blog_login_required
+from django.contrib.auth.decorators import permission_required
+from django.utils.decorators import method_decorator
+
+
+
+
+
+
 # cms首页
 @staff_member_required(login_url='/')
 def cms_index(request):
@@ -21,6 +30,8 @@ def cms_index(request):
 
 
 # 文章分类的模板
+@require_GET
+@permission_required(perm="article.add_articlecategory",login_url='/')
 def article_category(request):
     # 一般的这个在柱模板进行映射
     # categories = ArticleCategory.objects.all()
@@ -38,7 +49,9 @@ def article_category(request):
 
 
 # 添加文章分类
+
 @require_POST
+@permission_required(perm="article.add_articlecategory",login_url='/')
 def add_acticle_category(request):
     # 单个字段不写表单,直接取值
     name = request.POST.get('name')
@@ -54,6 +67,7 @@ def add_acticle_category(request):
 
 # 编辑文章分类
 @require_POST
+@permission_required(perm="article.change_articlecategory",login_url='/')
 def edit_article_category(request):
 
     form = EditArticleCategoryForm(request.POST)
@@ -71,6 +85,7 @@ def edit_article_category(request):
 
 # 删除分类
 @require_POST
+@permission_required(perm="article.delete_articlecategory",login_url='/')
 def delete_article_category(request):
     pk = request.POST.get('pk')
     try:
@@ -81,8 +96,10 @@ def delete_article_category(request):
 
 
 # 发布文章
+@method_decorator(permission_required(perm="article.add_article",login_url='/'),name='dispatch')
 class WriteArticle(View):
     # 处理get请求
+
     def get(self,request):
         categories = ArticleCategory.objects.all()
         context = {
@@ -120,8 +137,8 @@ class WriteArticle(View):
 
 
 #文章管理
+@method_decorator(permission_required(perm="article.change_article",login_url='/'),name='dispatch')
 class ArticleListView(View):
-
     def get(self,request):
 
 
@@ -227,6 +244,7 @@ class ArticleListView(View):
 
 
 # 编辑文章
+@method_decorator(permission_required(perm="article.change_article",login_url='/'),name='dispatch')
 class EditArticleView(View):
     def get(self,request):
 
@@ -268,7 +286,8 @@ class EditArticleView(View):
 
 
 
-
+@require_POST
+@permission_required(perm="article.delete_article",login_url='/')
 def delete_article(request):
     article_id = request.POST.get('article_id')
     Article.objects.filter(pk=article_id).delete()
@@ -277,7 +296,9 @@ def delete_article(request):
 
 
 # 上传文件到服务器
+
 @require_POST
+@staff_member_required(login_url='index')
 def upload_file(request):
     # 获取文件
     file = request.FILES.get('file')

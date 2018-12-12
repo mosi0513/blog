@@ -105,5 +105,6 @@ def sms_captcha(request):
     # 验证码 key vluea 过期时间
     cache.set(telephone,code,5*60)
     result = aliyunsms.send_sms(telephone,code)
+    print(code)
     print(result)
     return restful.ok()
