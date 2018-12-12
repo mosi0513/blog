@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="559bd79c-86e5-4723-b8ce-de194252a6dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
-    </list>
+    <list default="true" id="559bd79c-86e5-4723-b8ce-de194252a6dd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,7 @@
           <entry key="conf" value="33" />
           <entry key="dummy" value="2" />
           <entry key="html" value="4746" />
-          <entry key="ini" value="30" />
+          <entry key="ini" value="31" />
           <entry key="js" value="6052" />
           <entry key="json" value="1" />
           <entry key="py" value="13254" />
@@ -99,7 +97,7 @@
         <counts>
           <entry key="CommandLine" value="83" />
           <entry key="HTML" value="4738" />
-          <entry key="Ini" value="30" />
+          <entry key="Ini" value="31" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="6052" />
           <entry key="PLAIN_TEXT" value="254" />
@@ -168,8 +166,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uwsgi.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -305,9 +303,9 @@
       <path value="$PROJECT_DIR$/front/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1033" />
-    <option name="y" value="98" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="803" />
+    <option name="y" value="29" />
     <option name="width" value="1228" />
     <option name="height" value="1009" />
   </component>
@@ -423,7 +421,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1033" y="98" width="1228" height="1009" extended-state="0" />
+    <frame x="803" y="29" width="1228" height="1009" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30565068" />
@@ -767,8 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
