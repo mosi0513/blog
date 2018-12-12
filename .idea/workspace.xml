@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="559bd79c-86e5-4723-b8ce-de194252a6dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +86,7 @@
           <entry key="conf" value="33" />
           <entry key="dummy" value="2" />
           <entry key="html" value="4746" />
-          <entry key="ini" value="29" />
+          <entry key="ini" value="30" />
           <entry key="js" value="6052" />
           <entry key="json" value="1" />
           <entry key="py" value="13254" />
@@ -99,7 +99,7 @@
         <counts>
           <entry key="CommandLine" value="83" />
           <entry key="HTML" value="4738" />
-          <entry key="Ini" value="29" />
+          <entry key="Ini" value="30" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="6052" />
           <entry key="PLAIN_TEXT" value="254" />
@@ -168,8 +168,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uwsgi.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="272">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -423,7 +423,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="199" y="112" width="1228" height="1009" extended-state="0" />
+    <frame x="1033" y="98" width="1228" height="1009" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30565068" />
@@ -767,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="272">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
