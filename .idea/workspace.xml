@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="559bd79c-86e5-4723-b8ce-de194252a6dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/videocourse/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/videocourse/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/templates/video/video_course.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/templates/article/article_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/article/article_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/templates/article/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/article/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/templates/base/front_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/base/front_base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mosiblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mosiblog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mosiblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mosiblog/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +64,7 @@
           <entry key="jpg" value="1" />
           <entry key="js" value="79" />
           <entry key="json" value="1" />
-          <entry key="py" value="236" />
+          <entry key="py" value="237" />
           <entry key="scss" value="21" />
           <entry key="vmoptions" value="1" />
         </counts>
@@ -86,7 +78,7 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="79" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="236" />
+          <entry key="Python" value="237" />
           <entry key="SCSS" value="21" />
         </counts>
       </usages-collector>
@@ -98,7 +90,7 @@
           <entry key="ini" value="40" />
           <entry key="js" value="6052" />
           <entry key="json" value="1" />
-          <entry key="py" value="13494" />
+          <entry key="py" value="13498" />
           <entry key="py@mosiblog" value="301" />
           <entry key="scss" value="710" />
           <entry key="vmoptions" value="19" />
@@ -112,7 +104,7 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="6052" />
           <entry key="PLAIN_TEXT" value="254" />
-          <entry key="Python" value="13494" />
+          <entry key="Python" value="13498" />
           <entry key="SCSS" value="710" />
         </counts>
       </usages-collector>
@@ -129,11 +121,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/templates/article/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="2" selection-start-line="2" selection-end-line="10" />
+            <state relative-caret-position="-562">
+              <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mosiblog/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -221,9 +222,9 @@
         <option value="$PROJECT_DIR$/front/templates/video/video_course.html" />
         <option value="$PROJECT_DIR$/apps/videocourse/views.py" />
         <option value="$PROJECT_DIR$/apps/videocourse/urls.py" />
-        <option value="$PROJECT_DIR$/mosiblog/settings.py" />
         <option value="$PROJECT_DIR$/front/templates/base/front_base.html" />
         <option value="$PROJECT_DIR$/mosiblog/urls.py" />
+        <option value="$PROJECT_DIR$/mosiblog/settings.py" />
       </list>
     </option>
   </component>
@@ -265,35 +266,6 @@
             <path>
               <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="mosiauth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="ueditor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="videocourse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -315,6 +287,16 @@
               <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="video" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
+              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
@@ -405,7 +387,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="111" y="7" width="2301" height="1007" extended-state="1" />
+    <frame x="111" y="7" width="2301" height="1007" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11200357" />
@@ -424,7 +406,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021398" side_tool="true" weight="0.24285714" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960256" weight="0.20298165" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295583" />
-      <window_info anchor="bottom" id="manage.py@mosiblog" order="13" visible="true" weight="0.2809633" />
+      <window_info anchor="bottom" id="manage.py@mosiblog" order="13" visible="true" weight="0.18348624" />
       <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32945284" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -744,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mosiblog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -763,8 +738,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/article/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="2" selection-start-line="2" selection-end-line="10" />
+        <state relative-caret-position="-562">
+          <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mosiblog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
