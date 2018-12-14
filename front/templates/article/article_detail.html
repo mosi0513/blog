@@ -93,15 +93,16 @@
 
 
       <div class="side-bar-card">
+            <div class="text-lg">微信赞助</div>
+            <img src="{% static 'images/微信图片_20181205155247.jpg' %}">
+
         <div class="card-title">相关推荐</div>
         <div class="card-body">
           <div class="list">
 
+
+
     {% for recommend in article_recommend %}
-
-
-
-
             <div class="item clearfix">
               <div class="col-xs-5 no-padding-h">
                 <img src="{{ recommend.thumbnail }}">

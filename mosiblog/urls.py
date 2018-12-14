@@ -23,6 +23,8 @@ urlpatterns = [
     path('article/',include("apps.article.urls")),
     path('msauth/',include("apps.mosiauth.urls")),
     path('cms/',include("apps.cms.urls")),
-    path('ueditor/',include('apps.ueditor.urls'))
+    path('ueditor/',include('apps.ueditor.urls')),
+    path('videocourse/',include('apps.videocourse.urls')),
+
 
 ]+ static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

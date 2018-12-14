@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="559bd79c-86e5-4723-b8ce-de194252a6dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/mosiauth/migrations/0002_auto_20181212_1428.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/videocourse/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/videocourse/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/video/video_course.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mosiauth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mosiauth/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mosiauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mosiauth/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/templates/article/article_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/article/article_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/templates/article/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/article/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/templates/base/front_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/base/front_base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mosiblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mosiblog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mosiblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mosiblog/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,9 +39,9 @@
     <session id="-1044879259">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="35" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.23" value="2" />
@@ -49,13 +52,14 @@
           <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="2" />
-          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.33" value="3" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -63,53 +67,53 @@
           <entry key="conf" value="1" />
           <entry key="css" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="104" />
+          <entry key="html" value="111" />
           <entry key="ini" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="78" />
+          <entry key="js" value="79" />
           <entry key="json" value="1" />
-          <entry key="py" value="225" />
-          <entry key="scss" value="20" />
+          <entry key="py" value="236" />
+          <entry key="scss" value="21" />
           <entry key="vmoptions" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="104" />
+          <entry key="HTML" value="111" />
           <entry key="Image" value="1" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="78" />
+          <entry key="JavaScript" value="79" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="225" />
-          <entry key="SCSS" value="20" />
+          <entry key="Python" value="236" />
+          <entry key="SCSS" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="conf" value="33" />
           <entry key="dummy" value="2" />
-          <entry key="html" value="4757" />
+          <entry key="html" value="4849" />
           <entry key="ini" value="40" />
           <entry key="js" value="6052" />
           <entry key="json" value="1" />
-          <entry key="py" value="13426" />
-          <entry key="py@mosiblog" value="283" />
-          <entry key="scss" value="652" />
+          <entry key="py" value="13494" />
+          <entry key="py@mosiblog" value="301" />
+          <entry key="scss" value="710" />
           <entry key="vmoptions" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="91" />
-          <entry key="HTML" value="4749" />
+          <entry key="CommandLine" value="109" />
+          <entry key="HTML" value="4841" />
           <entry key="Ini" value="40" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="6052" />
           <entry key="PLAIN_TEXT" value="254" />
-          <entry key="Python" value="13426" />
-          <entry key="SCSS" value="652" />
+          <entry key="Python" value="13494" />
+          <entry key="SCSS" value="710" />
         </counts>
       </usages-collector>
     </session>
@@ -117,97 +121,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
+        <entry file="file://$PROJECT_DIR$/front/templates/video/video_course.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-816">
-              <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/mosiauth/decorators.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/article/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/mosiauth/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1191">
-              <caret line="101" column="25" lean-forward="true" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/templates/base/front_base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/mosiauth/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/templates/article/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="131" column="27" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mosiblog/settings.py">
+        <entry file="file://$PROJECT_DIR$/front/templates/article/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/templates/cms/write_article.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+            <state relative-caret-position="-68">
+              <caret line="2" selection-start-line="2" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -217,9 +143,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -234,6 +160,7 @@
       <find>side-bar-card</find>
       <find>navbar-brand</find>
       <find>news</find>
+      <find>news-list-item</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -246,10 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mosiblog/__init__.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions" />
-        <option value="$PROJECT_DIR$/apps/mosiauth/admin.py" />
-        <option value="$PROJECT_DIR$/apps/mosiauth/migrations/forms.py" />
         <option value="$PROJECT_DIR$/utils/restful.py" />
         <option value="$PROJECT_DIR$/apps/forms.py" />
         <option value="$PROJECT_DIR$/front/src/js/msajax.js" />
@@ -260,7 +183,6 @@
         <option value="$PROJECT_DIR$/apps/mosiauth/urls.py" />
         <option value="$PROJECT_DIR$/apps/mosiauth/forms.py" />
         <option value="$PROJECT_DIR$/front/templates/cms/cms_index.html" />
-        <option value="$PROJECT_DIR$/mosiblog/urls.py" />
         <option value="$PROJECT_DIR$/front/src/js/front_base.js" />
         <option value="$PROJECT_DIR$/front/src/js/article_category.js" />
         <option value="$PROJECT_DIR$/front/templates/article/register.html" />
@@ -274,9 +196,6 @@
         <option value="$PROJECT_DIR$/front/src/js/article_detail.js" />
         <option value="$PROJECT_DIR$/front/templates/sidebar/sidebar.html" />
         <option value="$PROJECT_DIR$/apps/article/models.py" />
-        <option value="$PROJECT_DIR$/front/templates/article/index.html" />
-        <option value="$PROJECT_DIR$/front/templates/article/article_detail.html" />
-        <option value="$PROJECT_DIR$/front/src/css/article/index.scss" />
         <option value="$PROJECT_DIR$/apps/mosiauth/decorators.py" />
         <option value="$PROJECT_DIR$/front/src/css/cms/article_list.scss" />
         <option value="$PROJECT_DIR$/front/templates/cms/cms_base.html" />
@@ -294,9 +213,17 @@
         <option value="$PROJECT_DIR$/apps/ueditor/views.py" />
         <option value="$PROJECT_DIR$/apps/mosiauth/views.py" />
         <option value="$PROJECT_DIR$/apps/mosiauth/models.py" />
-        <option value="$PROJECT_DIR$/front/templates/base/front_base.html" />
+        <option value="$PROJECT_DIR$/front/templates/article/index.html" />
+        <option value="$PROJECT_DIR$/front/templates/article/article_detail.html" />
         <option value="$PROJECT_DIR$/apps/cms/views.py" />
+        <option value="$PROJECT_DIR$/front/src/css/article/index.scss" />
+        <option value="$PROJECT_DIR$/front/templates/video.html" />
+        <option value="$PROJECT_DIR$/front/templates/video/video_course.html" />
+        <option value="$PROJECT_DIR$/apps/videocourse/views.py" />
+        <option value="$PROJECT_DIR$/apps/videocourse/urls.py" />
         <option value="$PROJECT_DIR$/mosiblog/settings.py" />
+        <option value="$PROJECT_DIR$/front/templates/base/front_base.html" />
+        <option value="$PROJECT_DIR$/mosiblog/urls.py" />
       </list>
     </option>
   </component>
@@ -316,10 +243,11 @@
       <path value="$PROJECT_DIR$/front/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="145" />
-    <option name="width" value="1803" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="111" />
+    <option name="y" value="7" />
+    <option name="width" value="2301" />
+    <option name="height" value="1007" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -343,12 +271,6 @@
               <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,6 +282,18 @@
             <path>
               <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="ueditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="videocourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -380,12 +314,7 @@
               <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
-              <item name="mosiblog" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mosiblog" type="b2602c69:ProjectViewProjectNode" />
@@ -476,26 +405,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="145" y="0" width="1803" height="1000" extended-state="0" />
+    <frame x="111" y="7" width="2301" height="1007" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.105565116" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11200357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295583" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978602" visible="true" weight="0.2416185" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32912844" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978602" weight="0.23853211" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39834514" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295583" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286052" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021398" side_tool="true" weight="0.24285714" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960256" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960256" weight="0.20298165" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295583" />
-      <window_info anchor="bottom" id="manage.py@mosiblog" order="13" weight="0.3854506" />
+      <window_info anchor="bottom" id="manage.py@mosiblog" order="13" visible="true" weight="0.2809633" />
       <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32945284" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -511,52 +440,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/mosiauth/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mosiauth/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mosiauth/forms.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mosiauth/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mosiauth/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dysms_python/demo_sms_send.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/restful.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/captcha/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/captcha/mscaptcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-925" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/aliyunsdk/aliyunsms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -600,13 +483,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/sidebar/sidebar.html" />
-    <entry file="file://$PROJECT_DIR$/front/src/css/article/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/js/article_category.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -639,9 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,13 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/templates/article/article_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supervisor.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -748,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/ueditor/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-986">
-          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -762,31 +621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/templates/cms/write_article.html">
+    <entry file="file://$PROJECT_DIR$/apps/mosiauth/decorators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mosiauth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/templates/article/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="131" column="27" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/templates/base/front_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
@@ -797,37 +635,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mosiauth/decorators.py">
+    <entry file="file://$PROJECT_DIR$/apps/mosiauth/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="395">
+          <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/article/article_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="100" column="28" lean-forward="true" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/cms/write_article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/css/article/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="118" column="18" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ueditor/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/mosiauth/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1191">
-          <caret line="101" column="25" lean-forward="true" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
+        <state relative-caret-position="1428">
+          <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        <state relative-caret-position="255">
+          <caret line="24" selection-start-line="24" selection-end-line="28" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/mosiauth/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/videocourse/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/videocourse/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mosiblog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="58" lean-forward="true" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/videocourse/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/videocourse/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/base/front_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/videocourse/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mosiblog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state relative-caret-position="408">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/video/video_course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/article/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="2" selection-start-line="2" selection-end-line="10" />
         </state>
       </provider>
     </entry>
